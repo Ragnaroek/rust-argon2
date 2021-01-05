@@ -92,7 +92,7 @@ pub mod core;
 mod decoded;
 mod encoding;
 mod error;
-mod memory;
+pub mod memory;
 mod result;
 mod thread_mode;
 mod variant;
