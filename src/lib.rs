@@ -88,7 +88,7 @@ mod block;
 mod common;
 mod config;
 mod context;
-mod core;
+pub mod core;
 mod decoded;
 mod encoding;
 mod error;
@@ -99,7 +99,6 @@ mod variant;
 mod version;
 
 pub use crate::argon2::*;
-pub use crate::core::*;
 pub use crate::config::Config;
 pub use crate::error::Error;
 pub use crate::result::Result;
