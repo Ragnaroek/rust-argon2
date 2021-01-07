@@ -14,13 +14,13 @@ use std::ops::{Index, IndexMut};
 /// Structure representing the memory matrix.
 pub struct Memory {
     /// The number of rows.
-    rows: usize,
+    pub rows: usize,
 
     /// The number of columns.
-    cols: usize,
+    pub cols: usize,
 
     /// The flat array of blocks representing the memory matrix.
-    blocks: Box<[Block]>,
+    pub blocks: Box<[Block]>,
 }
 
 impl Memory {
