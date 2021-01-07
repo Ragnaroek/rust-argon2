@@ -84,7 +84,7 @@
 //! optimizations. Therefore, it is not the fastest implementation available.
 
 mod argon2;
-mod block;
+pub mod block;
 mod common;
 pub mod config;
 pub mod context;
