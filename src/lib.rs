@@ -87,7 +87,7 @@ mod argon2;
 mod block;
 mod common;
 mod config;
-mod context;
+pub mod context;
 pub mod core;
 mod decoded;
 mod encoding;
